@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($t=[IO.File]::ReadAllText\\(\"$PWD\\\\mobile\\\\bridal-packages.html\"\\); $s=$t.IndexOf\\('<div id=\"comp-mun3u7z4\"'\\); $t.Substring\\($s,80\\); $t.Length)"
+    ]
+  }
+}
